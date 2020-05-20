@@ -1,0 +1,35 @@
+header {
+  background-color: darkgrey;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  /*also, we can use lowercase and capitalize, for lowercase, every letters would be small letter, but
+  capitalize, then only first letter of every words would be uppcase, others would be lowercase.*/
+  color: aliceblue;
+  font-size: 200%;
+}
+
+nav a {
+  color: black;
+  text-transform: capitalize;
+  background-color: #d1d2d4fc;
+}
+aside img {
+  display: none;
+/*  Becareful: here, we can only use display: none, that means hidden the image and donot leave any space for img on the page,
+but if you use visibility, then put hidden there, the img would not show up, but on the page, it will take the space for img.*/
+/* display tags has many different attribute, you can check it on W3Schools.  */
+}
+
+section {
+  /*background-color: dimgrey;*/
+  background-image: linear-gradient(to bottom, rgb(100, 100, 102, 1), rgba(135,206, 235, 0));
+}
+
+h2 {
+  font-size: 150%;
+  color: blanchedalmond;
+  text-transform: uppercase;
+}
