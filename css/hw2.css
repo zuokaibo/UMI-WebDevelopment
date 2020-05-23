@@ -1,0 +1,67 @@
+body {
+  margin: 2%;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("/images/a.jpg");
+  background-color: blanchedalmond;
+  border: solid 1px black;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 250%;
+}
+
+nav {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 150%;
+  padding: 20px;
+}
+
+nav a {
+  border: solid 1px black;
+  padding: 10px 30px;
+  font-family: "Arial Narrow", sans-serif;
+  margin: 7%;
+  text-decoration: none;
+  background-color: aliceblue;
+}
+
+nav .active {
+  background-color: darkgrey;
+}
+
+main aside section {
+  display: inline-block;
+/*  if you want to display imgs and content at same level, we need to set them inline block by display, then seperately set
+width to different part, like aside take 10% then section. check the code below.*/
+}
+
+aside {
+  width: 12%;
+  background-color: burlywood;
+  padding: 1%;
+  float: left;
+  margin-right: 4%;
+}
+
+aside img {
+  width: 90%;
+  height: 40%;
+  display: block;
+  margin: 4%;
+  background-size: 300px 100px;
+  border: solid 1px black;
+}
+
+section {
+  margin-left: 10%;
+  width: 85%;
+/*  here, if you set width to 60%, you can see that would be a big blank space on the page, try it to see the result*/
+
+}
