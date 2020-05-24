@@ -23,7 +23,7 @@ nav {
   padding: 20px;
 }
 
-nav a {
+nav>a {
   border: solid 1px black;
   padding: 10px 30px;
   font-family: "Arial Narrow", sans-serif;
@@ -75,9 +75,26 @@ section .second {
   margin-left: auto;
 }
 
-ul {
+ul{
   list-style-type:none;
   padding: 0;
 /*  Becareful here:  since we remove the ul mark (dot), then there would be a space of indentation,
 ro remove that space, we must set padding to 0. */
 }
+
+ul .third{
+  list-style-type: circle;
+}
+
+main>a {
+  color: dimgrey;
+}
+
+main a:visited {
+  color: #cdbebd;
+}
+
+main a:hover {
+  color: red;
+}
+
