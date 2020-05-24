@@ -33,7 +33,7 @@ nav a {
 }
 
 nav .active {
-  background-color: darkgrey;
+  background-color: #ce6153;
 /*  here you can hightlight link in menu, but you need to set class selector in html*/
 }
 
@@ -64,5 +64,20 @@ section {
   margin-left: 10%;
   width: 85%;
 /*  here, if you set width to 60%, you can see that would be a big blank space on the page, try it to see the result*/
+}
 
+section .second {
+  display: inline-block;
+  width: 20%;
+  /*background-color: coral;*/
+  margin-bottom: 1%;
+  float: left;
+  margin-left: auto;
+}
+
+ul {
+  list-style-type:none;
+  padding: 0;
+/*  Becareful here:  since we remove the ul mark (dot), then there would be a space of indentation,
+ro remove that space, we must set padding to 0. */
 }
