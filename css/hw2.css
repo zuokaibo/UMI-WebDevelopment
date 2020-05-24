@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-image: url("/images/a.jpg");
+  background-image: url("../images/d.jpg");
   background-color: blanchedalmond;
   border: solid 1px black;
   margin-bottom: 10px;
