@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    padding-left: 2%;
+}
+
+
+#showbox {
+    background-color: #db9d9d;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+/*you need to put transition in uper block, to tell the browser how to change it, then in transform tell the
+browser what the page should look like as a result. then you use transform instead of transition*/
+
+#showbox:hover {
+    background-color: #ffcc33;
+    transform: rotate(360deg) scale(2);
+    -webkit-transform: rotate(360deg) scale(2);
+    -moz-transform: rotate(360deg) scale(2);
+    -o-transform: rotate(360deg) scale(2);
+    -ms-transform: rotate(360deg) scale(2);
+}
+
