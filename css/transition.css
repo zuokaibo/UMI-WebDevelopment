@@ -1,5 +1,4 @@
 div {
-
     background-color: #ce6153;
     font-size: 200%;
     width: 650px;
@@ -8,5 +7,23 @@ div {
     line-height: 300px;
 /*    here attention: line height property. it changed the text position in the div. */
     border-radius: 10px;
+
+    transition-property: color, width, background-color, border-radius;
+    transition-duration: .5s;
+    transition-timing-funtion: linear;
+    transition-delay: .5s;
+/*    here this chunk of code is telling the browser that i want to change those properties of the div,
+and then we need the below code to tell the browser how to change it, what it should look like*/
+}
+
+div:hover {
+    color: #ffffff;
+    width: 450px;
+    background-color: #195525;
+    border-radius: 50%;
+}
+
+div:active {
+/*    active is the moment that you are clicking the mouse, but havenot loosed it*/
 
 }
