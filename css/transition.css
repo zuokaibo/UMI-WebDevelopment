@@ -25,5 +25,7 @@ div:hover {
 
 div:active {
 /*    active is the moment that you are clicking the mouse, but havenot loosed it*/
-
+    color: #000000;
+    width: 550px;
+    background-color: #4d1e6d;
 }
