@@ -1,0 +1,12 @@
+div {
+
+    background-color: #ce6153;
+    font-size: 200%;
+    width: 650px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+/*    here attention: line height property. it changed the text position in the div. */
+    border-radius: 10px;
+
+}
