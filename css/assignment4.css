@@ -1,0 +1,105 @@
+body {
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("../images/d.jpg");
+    background-color: blanchedalmond;
+    border: solid 1px black;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 250%;
+}
+
+nav {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 150%;
+    padding: 20px;
+}
+
+nav>a {
+    border: solid 1px black;
+    padding: 10px 30px;
+    font-family: "Arial Narrow", sans-serif;
+    margin: 7%;
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+nav .active {
+    background-color: #ce6153;
+    /*  here you can hightlight link in menu, but you need to set class selector in html*/
+}
+
+main aside section {
+    display: inline-block;
+    /*  if you want to display imgs and content at same level, we need to set them inline block by display, then seperately set
+    width to different part, like aside take 10% then section. check the code below.*/
+}
+
+aside {
+    width: 12%;
+    line-height: 45px;
+    background-color: burlywood;
+    padding: 1%;
+    float: left;
+    margin-right: 4%;
+}
+
+aside img {
+    width: 90%;
+    height: 40%;
+    display: block;
+    margin: 4%;
+    background-size: 300px 100px;
+    border: solid 1px black;
+}
+
+table {
+    line-height: 40px;
+    width: 60%;
+    font-family: "Arial Narrow", sans-serif;
+    font-size: medium;
+    border-collapse: separate !important;
+    transform: translate(10%, 3%);
+/*    the translate attribute of transform is used to locate the table which corner it should be at or toward*/
+}
+
+td, th {
+    padding-left: 8px;
+}
+
+/*attention:  if you add border to the table, then table has border, not the head of table, so for the radius of the thead,
+you need to add border to th rather than table or thead.but the head of thead. check the structure of table in html*/
+th {
+    border: 1px solid #e6b0b0;
+    border-radius: 10px 10px 0 0;
+    background-image: linear-gradient(to bottom, rgba(0, 255, 153,0), rgba(0,255,153,1));
+}
+
+.head {
+    text-align: left;
+}
+
+tbody {
+    background-color: #78a757;
+}
+
+.body {
+    text-align: center;
+}
+
+tbody td{
+    opacity: 0.7;
+}
+
+tbody:hover td {
+    opacity: 1;
+}
+
