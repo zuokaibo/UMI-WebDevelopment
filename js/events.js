@@ -5,8 +5,7 @@ function upDate(previewPic){
        /*2) Change the text  of the div with the id = "image"
        to the alt text of the preview image
        */
-    document.getElementById("image").style.backgroundColor = "green";
-    document.getElementById("image").style.backgroundColor = "url('previewPic.src')";
+    document.getElementById("image").style.backgroundImage = "url('" + previewPic.src +"')";
     document.getElementById("image").innerHTML = previewPic.alt + ".  this is onmouseover events";
 }
 
@@ -17,6 +16,9 @@ function unDo(){
    2) Change the text  of the div with the id = "image"
    back to the original text.  You can use the html code to see what that original text was
    */
-    document.getElementById("image").style.backgroundColor = "#8e68ff";
+    document.getElementById("image").style.backgroundImage = "";
+    // document.getElementById("image").style.backgroundColor = "#8e68ff";  here you dont have
+    // to set background color, because if you set image to none when you move mouse away, the
+    // background will return to its original background.
     document.getElementById("image").innerHTML = "Hover over an image below to display here.";
 }
