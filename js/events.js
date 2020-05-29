@@ -5,7 +5,8 @@ function upDate(previewPic){
        /*2) Change the text  of the div with the id = "image"
        to the alt text of the preview image
        */
-    document.getElementById("image").style.backgroundImage = "url(previewPic.src)";
+    document.getElementById("image").style.backgroundColor = "green";
+    document.getElementById("image").style.backgroundColor = "url('previewPic.src')";
     document.getElementById("image").innerHTML = previewPic.alt + ".  this is onmouseover events";
 }
 
